@@ -1,10 +1,5 @@
-void main(List<String> arguments) {
-  int number = int.parse(arguments[0]);
-
-  assert(() {
-    print(number >= 80 && 'You Passed' == 'You Passed'
-        ? 'You Passed'
-        : throw 'Uncaught Error: Assertion failed: "The score must be bigger or equal to 80"');
-    return true;
-  }());
+void main() {
+  var n = 3.14159265359;
+  n = double.parse((n).toStringAsFixed(2));
+  print("Double: $n\n");
 }

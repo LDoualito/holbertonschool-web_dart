@@ -1,4 +1,5 @@
 void main() {
-  double number = 3.14159; // Replace 3.14159 with the actual double value
-  print('Double: ${number.toStringAsFixed(2)}');
+  var n = 3.14159265359;
+  n = double.parse((n).toStringAsFixed(2));
+  print("Double: $n\n");
 }

@@ -1,4 +1,5 @@
 void main() {
-  String str = 'YourString'; // Replace 'YourString' with the actual string value
-  print('${str * 3}\n${str.substring(0, 9)}');
+  var n = 3.14159265359;
+  n = double.parse((n).toStringAsFixed(2));
+  print("Double: $n\n");
 }
