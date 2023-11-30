@@ -1,5 +1,5 @@
-void main() {
-  var n = 3.14159265359;
-  n = double.parse((n).toStringAsFixed(2));
-  print("Double: $n\n");
+void main(List<String> args) {
+	int number = int.parse(args[0]);
+	assert(number >= 80, "Uncaught Error: Assertion failed: \"The score must be bigger or equal to 80");
+	print("You Passed");
 }
